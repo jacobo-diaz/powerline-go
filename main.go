@@ -97,6 +97,7 @@ var modules = map[string]func(*powerline){
 	"exit":                segmentExitCode,
 	"git":                 segmentGit,
 	"gitlite":             segmentGitLite,
+	"gitcompact":          segmentGitCompact,
 	"hg":                  segmentHg,
 	"svn":                 segmentSubversion,
 	"host":                segmentHost,

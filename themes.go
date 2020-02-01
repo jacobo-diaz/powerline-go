@@ -9,6 +9,7 @@ type Symbols struct {
 	SeparatorReverse     string
 	SeparatorReverseThin string
 
+	RepoBranch	   string
 	RepoDetached   string
 	RepoAhead      string
 	RepoBehind     string

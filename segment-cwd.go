@@ -149,7 +149,7 @@ func getColor(p *powerline, pathSegment pathSegment, isLastDir bool) (uint8, uin
 	if pathSegment.home && p.theme.HomeSpecialDisplay {
 		return p.theme.HomeFg, p.theme.HomeBg, true
 	} else if pathSegment.alias {
-		return p.theme.AliasFg, p.theme.AliasBg, true
+		return p.theme.AliasFg, p.theme.AliasBg, false
 	} else if isLastDir {
 		return p.theme.CwdFg, p.theme.PathBg, false
 	}

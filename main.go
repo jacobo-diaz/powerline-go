@@ -111,6 +111,7 @@ var modules = map[string]func(*powerline){
 	"root":                segmentRoot,
 	"shell-var":           segmentShellVar,
 	"ssh":                 segmentSSH,
+	"ssh-hostname":        segmentSSHHostname,
 	"termtitle":           segmentTermTitle,
 	"terraform-workspace": segmentTerraformWorkspace,
 	"time":                segmentTime,

@@ -17,6 +17,9 @@ var symbolTemplates = map[string]Symbols{
 		RepoUntracked:  "+",
 		RepoConflicted: "\u273C",
 		RepoStashed:    "\u2691",
+
+		VirtualEnvPython: "\ue606",
+		VirtualEnvConda: "\ue606",
 	},
 	"patched": {
 		Lock:                 "\uE0A2",
@@ -35,6 +38,9 @@ var symbolTemplates = map[string]Symbols{
 		RepoUntracked:  "+",
 		RepoConflicted: "\u273C",
 		RepoStashed:    "\u2691",
+
+		VirtualEnvPython: "\ue606",
+		VirtualEnvConda: "\ue606",
 	},
 	"powerlevel9k": {
 		Lock:                 "\uE0A2",
@@ -44,7 +50,7 @@ var symbolTemplates = map[string]Symbols{
 		SeparatorReverse:     "\uE0B2",
 		SeparatorReverseThin: "\uE0B3",
 
-		RepoBranch:   "\ue725",
+		RepoBranch:   	"\ue725",
 		RepoDetached:   "\u2693",
 		RepoAhead:      "\uF01B",
 		RepoBehind:     "\uF01A",
@@ -53,6 +59,9 @@ var symbolTemplates = map[string]Symbols{
 		RepoUntracked:  "\uF059",
 		RepoConflicted: "\u273C",
 		RepoStashed:    "\uF01C",
+
+		VirtualEnvPython: "\ue606",
+		VirtualEnvConda: "\ue606",
 	},
 	"flat": {
 		RepoDetached:   "\u2693",
@@ -63,6 +72,9 @@ var symbolTemplates = map[string]Symbols{
 		RepoUntracked:  "+",
 		RepoConflicted: "\u273C",
 		RepoStashed:    "\u2691",
+
+		VirtualEnvPython: "\ue606",
+		VirtualEnvConda: "\ue606",
 	},
 }
 
@@ -173,6 +185,12 @@ var themes = map[string]Theme{
 
 		VirtualEnvFg: 00,
 		VirtualEnvBg: 35, // a mid-tone green
+
+		VirtualEnvPythonFg: 00,
+		VirtualEnvPythonBg: 176,
+
+		VirtualEnvCondaFg: 00,
+		VirtualEnvCondaBg: 35,
 
 		VirtualGoFg: 00,
 		VirtualGoBg: 35,
@@ -540,6 +558,12 @@ var themes = map[string]Theme{
 		VirtualEnvFg: 35, // a mid-tone green
 		VirtualEnvBg: 254,
 
+		VirtualEnvPythonFg: 00,
+		VirtualEnvPythonBg: 176,
+
+		VirtualEnvCondaFg: 00,
+		VirtualEnvCondaBg: 35,
+
 		VirtualGoFg: 35,
 		VirtualGoBg: 254,
 
@@ -872,6 +896,10 @@ var themes = map[string]Theme{
 		GitStashedBg:       4,
 		VirtualEnvFg:       8,
 		VirtualEnvBg:       6,
+		VirtualEnvPythonFg: 8,
+		VirtualEnvPythonBg: 6,
+		VirtualEnvCondaFg:  8,
+		VirtualEnvCondaBg:  6,
 		PerlbrewFg:         8,
 		PerlbrewBg:         4,
 		PlEnvFg:            8,
@@ -1200,6 +1228,10 @@ var themes = map[string]Theme{
 		GitStashedBg:       4,
 		VirtualEnvFg:       8,
 		VirtualEnvBg:       6,
+		VirtualEnvPythonFg: 8,
+		VirtualEnvPythonBg: 6,
+		VirtualEnvCondaFg:  8,
+		VirtualEnvCondaBg:  6,
 		PerlbrewFg:         8,
 		PerlbrewBg:         4,
 		PlEnvFg:            8,
@@ -1552,6 +1584,12 @@ var themes = map[string]Theme{
 
 		VirtualEnvFg: 00,
 		VirtualEnvBg: 35, // a mid-tone green
+
+		VirtualEnvPythonFg: 00,
+		VirtualEnvPythonBg: 176,
+
+		VirtualEnvCondaFg: 00,
+		VirtualEnvCondaBg: 35,
 
 		VirtualGoFg: 00,
 		VirtualGoBg: 35,

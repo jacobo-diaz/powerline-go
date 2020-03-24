@@ -6,7 +6,7 @@
   "SeparatorReverse":     "\uE0B2",
   "SeparatorReverseThin": "\uE0B3",
 
-  "RepoBranch":   "\ue725",
+  "RepoBranch":     "\ue725",
   "RepoDetached":   "\u2693",
   "RepoAhead":      "\uF01B",
   "RepoBehind":     "\uF01A",
@@ -15,6 +15,9 @@
   "RepoUntracked":  "\uF059",
   "RepoConflicted": "\u273C",
   "RepoStashed":    "\uF01C",
+
+  "VirtualEnvPython": "\ue606",
+  "VirtualEnvConda": "\ue606",
 
   "Reset": 255,
   "UsernameFg": 250,
@@ -67,6 +70,10 @@
   "GitStashedBg": 20,
   "VirtualEnvFg": 0,
   "VirtualEnvBg": 35,
+  "VirtualEnvPythonFg": 0,
+  "VirtualEnvPythonBg": 136,
+  "VirtualEnvCondaFg":  0,
+  "VirtualEnvCondaBg":  35,
   "PerlbrewFg": 0,
   "PerlbrewBg": 20,
   "TimeFg": 15,

@@ -18,6 +18,10 @@ type Symbols struct {
 	RepoUntracked  string
 	RepoConflicted string
 	RepoStashed    string
+
+	VirtualEnvPython string
+	VirtualEnvConda string
+
 }
 
 // Theme definitions
@@ -101,6 +105,12 @@ type Theme struct {
 
 	VirtualEnvFg uint8
 	VirtualEnvBg uint8
+
+	VirtualEnvPythonFg uint8
+	VirtualEnvPythonBg uint8
+
+	VirtualEnvCondaFg uint8
+	VirtualEnvCondaBg uint8
 
 	VirtualGoFg uint8
 	VirtualGoBg uint8
